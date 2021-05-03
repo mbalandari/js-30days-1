@@ -10,10 +10,26 @@ body,html {
   font-family: sans-serif;
 }
 
-.keys {
+p {
+  font-size: 3rem;
+}
+
+.all {
   display: flex;
+  flex-direction: column;
   flex: 1;
   min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.explain {
+  color: #ffc600;
+  margin-bottom: 4rem;
+}
+
+.keys {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
